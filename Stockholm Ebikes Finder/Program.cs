@@ -33,15 +33,6 @@ namespace Stockholm_Ebikes_Finder
                 int attempt;
                 google = i.ToString();
                 generator();
-                /*
-                gen();
-                gen2();
-                gen3();
-                gen4();
-                gen5();
-                gen6();
-                gen7();
-                */
                 Console.WriteLine("Attempts: " + google);
                 string realtid;
                 realtid = DateTime.Now.ToString("HH:mm:ss"); //result 22:11:45
@@ -66,6 +57,7 @@ namespace Stockholm_Ebikes_Finder
 
         static void generator()
         {
+            
             Console.WriteLine("Location?");
             string selectedLoc = Convert.ToString(Console.ReadLine());
 
@@ -91,6 +83,18 @@ namespace Stockholm_Ebikes_Finder
             },
 
             new Location{
+                Area = "HORNSTULL",
+                Url = "https://stockholmebikes.se/map/detail/5555380e-c81f-4e7f-a303-32d39396e50c?_data=routes%2Fmap%2Fdetail.%24optionId",
+                Name = "Hornstullstrand"
+            },
+
+            new Location{
+                Area = "HORNSTULL",
+                Url = "https://stockholmebikes.se/map/detail/907dcd54-cdd9-4521-975e-b60cee9da28c?_data=routes%2Fmap%2Fdetail.%24optionId",
+                Name = "Högalidsgatan"
+            },
+
+            new Location{
                 Area = "Östermalm",
                 Url = "https://stockholmebikes.se/map/detail/84b645f4-490c-45ad-8616-de9a4db70dd5?_data=routes%2Fmap%2Fdetail.%24optionId",
                 Name = "Stureparken"
@@ -100,7 +104,91 @@ namespace Stockholm_Ebikes_Finder
                 Area = "Östermalm",
                 Url = "https://stockholmebikes.se/map/detail/35eded4e-3fff-4bcc-bc6d-86a365f0c288?_data=routes%2Fmap%2Fdetail.%24optionId",
                 Name = "Tegeluddsvägen"
-            }
+            },
+
+
+            new Location{
+                Area = "Slussen",
+                Url = "https://stockholmebikes.se/map/detail/e0e79e75-93bd-4398-b3e0-5db2c81c349b?_data=routes%2Fmap%2Fdetail.%24optionId",
+                Name = "Slussen"
+            },
+
+            //SÖDERMALM
+            new Location{
+                Area = "Södermalm",
+                Url = "https://stockholmebikes.se/map/detail/71e0ac89-db41-4e7b-9404-582767594026?_data=routes%2Fmap%2Fdetail.%24optionId",
+                Name = "Medborgarplatsen"
+            },
+
+            new Location{
+                Area = "Södermalm",
+                Url = "https://stockholmebikes.se/map/detail/60120bb7-f90a-48f6-aa3c-6efe92195fd0?_data=routes%2Fmap%2Fdetail.%24optionId",
+                Name = "Götgatan/Katarina Bangata"
+            },
+
+              new Location{
+                Area = "Södermalm",
+                Url = "https://stockholmebikes.se/map/detail/d874a261-90c5-4dc6-b120-17fd378a461e?_data=routes%2Fmap%2Fdetail.%24optionId",
+                Name = "Götgatan"
+            },
+
+                   new Location{
+                Area = "Södermalm",
+                Url = "https://stockholmebikes.se/map/detail/63253761-1360-40b1-aff1-2d18cd054180?_data=routes%2Fmap%2Fdetail.%24optionId",
+                Name = "Ringen"
+            },
+
+                        new Location{
+                Area = "Södermalm",
+                Url = "https://stockholmebikes.se/map/detail/c40527cb-d84c-4704-93d3-2b2ee7eed99f?_data=routes%2Fmap%2Fdetail.%24optionId",
+                Name = "Skanstull"
+            },
+
+                             new Location{
+                Area = "Södermalm",
+                Url = "https://stockholmebikes.se/map/detail/8ba3983b-cee2-41cd-a24c-01517af95a47?_data=routes%2Fmap%2Fdetail.%24optionId",
+                Name = "Södra station"
+            },
+
+
+                       new Location{
+                Area = "Södermalm",
+                Url = "https://stockholmebikes.se/map/detail/551ad7c7-a918-4c69-aa7e-6110d567c395?_data=routes%2Fmap%2Fdetail.%24optionId",
+                Name = "Ringvägen/Södermannagatan"
+            },
+
+
+                       new Location{
+                Area = "Södermalm",
+                Url = "https://stockholmebikes.se/map/detail/fa1bf7f5-fa86-45c2-b9a4-9584f909bf34?_data=routes%2Fmap%2Fdetail.%24optionId",
+                Name = "Nytorget"
+            },
+
+
+                       new Location{
+                Area = "Södermalm",
+                Url = "https://stockholmebikes.se/map/detail/4a029af8-7575-49d5-9142-dfc467bd4960?_data=routes%2Fmap%2Fdetail.%24optionId",
+                Name = "Vintertullstorget"
+            },
+
+
+                       new Location{
+                Area = "Södermalm",
+                Url = "https://stockholmebikes.se/map/detail/90beb6ce-1e2b-4586-9514-4cd9ef0aff7c?_data=routes%2Fmap%2Fdetail.%24optionId",
+                Name = "Tegelviksgatan"
+            },
+
+
+                       new Location{
+                Area = "Södermalm",
+                Url = "https://stockholmebikes.se/map/detail/f9033694-e456-4e2d-8f0a-2118934407b5?_data=routes%2Fmap%2Fdetail.%24optionId",
+                Name = "Londonviadukten"
+            },
+
+
+
+
+
             };
 
 
