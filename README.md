@@ -1,7 +1,7 @@
-# Stockholm-Ebikes-Finder
+# Stockholm-Ebikes-Finder🚴
 
 - Gjorde denna i sommras när det knappt fanns några cyklar.
-- Finns just nu bara östermalm som sökområde.
+- Finns just nu bara östermalm🥂 som sökområde.
 - Kommer lägga in hela stockholm senare
 
 ## Inställningar
