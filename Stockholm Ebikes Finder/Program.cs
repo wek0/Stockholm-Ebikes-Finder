@@ -39,7 +39,6 @@ namespace Stockholm_Ebikes_Finder
                 string google;
                 int attempt;
                 google = i.ToString();
-
                 gen();
                 gen2();
                 gen3();
@@ -50,9 +49,9 @@ namespace Stockholm_Ebikes_Finder
                 Console.WriteLine("Attempts: " + google);
                 string realtid;
                 realtid = DateTime.Now.ToString("HH:mm:ss"); //result 22:11:45
-                Console.WriteLine(realtid);
+                Console.WriteLine(realtid);//visar klockan
                 Thread.Sleep(xsleep); // ändra om den ska gå långsammare eller snabbare 
-                Console.SetCursorPosition(0, 0);
+                Console.SetCursorPosition(0, 0); //gör så inte skärmen blinkar
             }
             Console.Title = "KLAR!";
             Console.ReadLine();
