@@ -2,7 +2,7 @@
 
 - Gjorde denna i sommras när det knappt fanns några cyklar.
 - Nu finns Östermalm, Södermalm, Hornstull och Slussen 🎇
-- Kommer lägga in hela stockholm senare
+- Kommer lägga in hela Stockholm senare
 
 ## Inställningar
 - "Attempts" är hur många gånger den ska söka (tex 10 = 10 gånger)
