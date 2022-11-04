@@ -11,6 +11,6 @@
 ## To Do ✏️
 - Lägg till mera ställen.
 - Få det att uppdatera automatiskt.
-- Bättre Ui.
+- Bättre UI.
 
 
